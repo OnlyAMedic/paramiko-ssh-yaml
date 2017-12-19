@@ -1,0 +1,16 @@
+global_config:
+    username: some_username
+    password: some_password
+    port: 22
+
+hosts:
+    - 1.1.1.1
+    - 2.2.2.2
+    - 3.3.3.3
+    - your.hostname.local
+    
+commands:
+    - hostname
+    - uname -a
+    - cat /proc/cpuinfo
+    - ifconfig
